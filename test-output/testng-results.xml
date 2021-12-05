@@ -1,17 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-05T11:35:30 IST" name="Default suite" finished-at="2021-12-05T11:35:41 IST" duration-ms="11489">
+  <suite started-at="2021-12-05T17:21:37 IST" name="Suite" finished-at="2021-12-05T17:21:52 IST" duration-ms="14303">
     <groups>
     </groups>
-    <test started-at="2021-12-05T11:35:30 IST" name="Default test" finished-at="2021-12-05T11:35:41 IST" duration-ms="11489">
-      <class name="com.PageObjectModel.registrationpage1">
-        <test-method signature="verifyRegistrationPage()[pri:0, instance:com.PageObjectModel.registrationpage1@6bedbc4d]" started-at="2021-12-05T11:35:30 IST" name="verifyRegistrationPage" finished-at="2021-12-05T11:35:41 IST" duration-ms="11449" status="PASS">
+    <test started-at="2021-12-05T17:21:37 IST" name="Test1" finished-at="2021-12-05T17:21:48 IST" duration-ms="10864">
+      <class name="CrossBrowser">
+        <test-method is-config="true" signature="browserInitalize(java.lang.String)[pri:0, instance:CrossBrowser@53ce1329]" started-at="2021-12-05T17:21:37 IST" name="browserInitalize" finished-at="2021-12-05T17:21:42 IST" duration-ms="5024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegistrationPage -->
-      </class> <!-- com.PageObjectModel.registrationpage1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- browserInitalize -->
+        <test-method signature="verifyPageTitle()[pri:0, instance:CrossBrowser@53ce1329]" started-at="2021-12-05T17:21:42 IST" name="verifyPageTitle" finished-at="2021-12-05T17:21:45 IST" duration-ms="2734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CrossBrowser@53ce1329]" started-at="2021-12-05T17:21:45 IST" name="tearDown" finished-at="2021-12-05T17:21:48 IST" duration-ms="3075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CrossBrowser -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-12-05T17:21:37 IST" name="Test" finished-at="2021-12-05T17:21:52 IST" duration-ms="14303">
+      <class name="CrossBrowser">
+        <test-method is-config="true" signature="browserInitalize(java.lang.String)[pri:0, instance:CrossBrowser@2b48a640]" started-at="2021-12-05T17:21:37 IST" name="browserInitalize" finished-at="2021-12-05T17:21:39 IST" duration-ms="2102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitalize -->
+        <test-method signature="verifyPageTitle()[pri:0, instance:CrossBrowser@2b48a640]" started-at="2021-12-05T17:21:39 IST" name="verifyPageTitle" finished-at="2021-12-05T17:21:45 IST" duration-ms="6008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CrossBrowser@2b48a640]" started-at="2021-12-05T17:21:45 IST" name="tearDown" finished-at="2021-12-05T17:21:52 IST" duration-ms="6163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CrossBrowser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
