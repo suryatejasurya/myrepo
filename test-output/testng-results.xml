@@ -2,54 +2,50 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-05T17:21:37 IST" name="Suite" finished-at="2021-12-05T17:21:52 IST" duration-ms="14303">
+  <suite started-at="2021-12-06T15:31:00 IST" name="Suite" finished-at="2021-12-06T15:31:31 IST" duration-ms="31170">
     <groups>
     </groups>
-    <test started-at="2021-12-05T17:21:37 IST" name="Test1" finished-at="2021-12-05T17:21:48 IST" duration-ms="10864">
-      <class name="CrossBrowser">
-        <test-method is-config="true" signature="browserInitalize(java.lang.String)[pri:0, instance:CrossBrowser@53ce1329]" started-at="2021-12-05T17:21:37 IST" name="browserInitalize" finished-at="2021-12-05T17:21:42 IST" duration-ms="5024" status="PASS">
+    <test started-at="2021-12-06T15:31:00 IST" name="Test" finished-at="2021-12-06T15:31:31 IST" duration-ms="31170">
+      <class name="com.basicspractices.radioboxesandcheckboxpractice">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.basicspractices.radioboxesandcheckboxpractice@2b48a640]" started-at="2021-12-06T15:31:00 IST" name="setup" finished-at="2021-12-06T15:31:02 IST" duration-ms="2065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dynamicCheckboxSelection(java.lang.String)[pri:0, instance:com.basicspractices.radioboxesandcheckboxpractice@2b48a640]" started-at="2021-12-06T15:31:02 IST" name="dynamicCheckboxSelection" finished-at="2021-12-06T15:31:12 IST" duration-ms="9477" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[tuesday]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserInitalize -->
-        <test-method signature="verifyPageTitle()[pri:0, instance:CrossBrowser@53ce1329]" started-at="2021-12-05T17:21:42 IST" name="verifyPageTitle" finished-at="2021-12-05T17:21:45 IST" duration-ms="2734" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:CrossBrowser@53ce1329]" started-at="2021-12-05T17:21:45 IST" name="tearDown" finished-at="2021-12-05T17:21:48 IST" duration-ms="3075" status="PASS">
+        </test-method> <!-- dynamicCheckboxSelection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.basicspractices.radioboxesandcheckboxpractice@2b48a640]" started-at="2021-12-06T15:31:12 IST" name="tearDown" finished-at="2021-12-06T15:31:14 IST" duration-ms="2065" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- CrossBrowser -->
-    </test> <!-- Test1 -->
-    <test started-at="2021-12-05T17:21:37 IST" name="Test" finished-at="2021-12-05T17:21:52 IST" duration-ms="14303">
-      <class name="CrossBrowser">
-        <test-method is-config="true" signature="browserInitalize(java.lang.String)[pri:0, instance:CrossBrowser@2b48a640]" started-at="2021-12-05T17:21:37 IST" name="browserInitalize" finished-at="2021-12-05T17:21:39 IST" duration-ms="2102" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.basicspractices.radioboxesandcheckboxpractice@2b48a640]" started-at="2021-12-06T15:31:14 IST" name="setup" finished-at="2021-12-06T15:31:15 IST" duration-ms="1417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dynamicRadioboxSelection(java.lang.String)[pri:0, instance:com.basicspractices.radioboxesandcheckboxpractice@2b48a640]" started-at="2021-12-06T15:31:15 IST" name="dynamicRadioboxSelection" finished-at="2021-12-06T15:31:29 IST" duration-ms="14003" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[male]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserInitalize -->
-        <test-method signature="verifyPageTitle()[pri:0, instance:CrossBrowser@2b48a640]" started-at="2021-12-05T17:21:39 IST" name="verifyPageTitle" finished-at="2021-12-05T17:21:45 IST" duration-ms="6008" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:CrossBrowser@2b48a640]" started-at="2021-12-05T17:21:45 IST" name="tearDown" finished-at="2021-12-05T17:21:52 IST" duration-ms="6163" status="PASS">
+        </test-method> <!-- dynamicRadioboxSelection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.basicspractices.radioboxesandcheckboxpractice@2b48a640]" started-at="2021-12-06T15:31:29 IST" name="tearDown" finished-at="2021-12-06T15:31:31 IST" duration-ms="2101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- CrossBrowser -->
+      </class> <!-- com.basicspractices.radioboxesandcheckboxpractice -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
